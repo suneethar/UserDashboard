@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/suneethar/UserDashboard/static/css/main.b1b65e0c.chunk.css",
+    "main.js": "/suneethar/UserDashboard/static/js/main.bcc16f7b.chunk.js",
+    "main.js.map": "/suneethar/UserDashboard/static/js/main.bcc16f7b.chunk.js.map",
+    "runtime-main.js": "/suneethar/UserDashboard/static/js/runtime-main.08ae385a.js",
+    "runtime-main.js.map": "/suneethar/UserDashboard/static/js/runtime-main.08ae385a.js.map",
+    "static/js/2.c0b93585.chunk.js": "/suneethar/UserDashboard/static/js/2.c0b93585.chunk.js",
+    "static/js/2.c0b93585.chunk.js.map": "/suneethar/UserDashboard/static/js/2.c0b93585.chunk.js.map",
+    "static/js/3.cf083ba3.chunk.js": "/suneethar/UserDashboard/static/js/3.cf083ba3.chunk.js",
+    "static/js/3.cf083ba3.chunk.js.map": "/suneethar/UserDashboard/static/js/3.cf083ba3.chunk.js.map",
+    "index.html": "/suneethar/UserDashboard/index.html",
+    "static/css/main.b1b65e0c.chunk.css.map": "/suneethar/UserDashboard/static/css/main.b1b65e0c.chunk.css.map",
+    "static/js/2.c0b93585.chunk.js.LICENSE.txt": "/suneethar/UserDashboard/static/js/2.c0b93585.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08ae385a.js",
+    "static/js/2.c0b93585.chunk.js",
+    "static/css/main.b1b65e0c.chunk.css",
+    "static/js/main.bcc16f7b.chunk.js"
+  ]
+}
