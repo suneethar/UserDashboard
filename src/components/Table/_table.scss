@@ -1,0 +1,51 @@
+@import '../../variables';
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+    margin: 1.5rem 0;
+
+    &__header {
+        th {
+            padding: .5rem;
+            border-bottom: 1px solid rgba(224, 224, 224, 1);
+            text-transform: uppercase;
+            width: 25%;
+        }
+    }
+
+    &__body {
+        td {
+            padding: .6rem;
+            border-bottom: 1px solid rgba(224, 224, 224, 1);
+        }
+
+        &__row td:nth-child(4) {
+            text-transform: capitalize;
+        }
+    }
+
+    &__checkbox {
+        width: 5% !important;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+        column-gap: .5rem;
+        color: $primary-color;
+
+        .fa-edit {
+            color: $primary-color;
+        }
+
+        .fa-trash-alt {
+            color: $danger-color;
+        }
+    }
+}
+
+.row-selected {
+    background: #eee;
+}
+

@@ -1,0 +1,45 @@
+@import '../../variables';
+
+.gt__main {
+    background-color: $white-color;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: .5rem 1rem;
+    margin: 1rem;
+
+    &__toolbar {
+        display: flex;
+        column-gap: 2rem;
+    }
+}
+
+.btn {
+    border: 1px solid $text-color;
+    background: none;
+    padding: .6rem;
+    background: $white-color;
+    color: $text-color;
+    cursor: pointer;
+
+    &--disabled {
+        opacity: .5;
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    &--danger {
+        background: $danger-color;
+        color: $white-color;
+    }
+
+    &--primary {
+        background: $primary-color;
+        color: $white-color;
+    }
+}
+
+@media (max-width: 600px) {
+    .gt__main {
+        margin: 0;
+        padding: .1rem;
+    }
+}
